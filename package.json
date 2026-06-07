@@ -1,0 +1,15 @@
+{
+  "name": "demand-pricing-engine",
+  "version": "1.0.0",
+  "description": "A simple rule-based dynamic pricing engine for a B2B food e-commerce platform.",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/pricing-engine.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.12.7"
+  }
+}
