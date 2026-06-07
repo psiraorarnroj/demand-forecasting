@@ -1,0 +1,95 @@
+[
+  {
+    "productName": "Jasmine Rice 5kg",
+    "currentPrice": 245,
+    "suggestedPrice": 220.5,
+    "appliedRules": [
+      "Rule 1 - Overstock Discount"
+    ],
+    "explanation": "Inventory is over 120% of forecasted demand and demand is trending down, so price is lowered to accelerate sell-through."
+  },
+  {
+    "productName": "Fresh Chicken Breast 1kg",
+    "currentPrice": 165,
+    "suggestedPrice": 173.25,
+    "appliedRules": [
+      "Rule 2 - High Demand Markup"
+    ],
+    "explanation": "Inventory is below 50% of forecasted demand while demand is rising, so price is increased to manage demand and protect margin."
+  },
+  {
+    "productName": "Farm Eggs (Tray of 30)",
+    "currentPrice": 145,
+    "suggestedPrice": 145,
+    "appliedRules": [
+      "No rules triggered"
+    ],
+    "explanation": "No pricing conditions were met, so the current price is kept unchanged."
+  },
+  {
+    "productName": "Whole Milk 1L",
+    "currentPrice": 58,
+    "suggestedPrice": 56.26,
+    "appliedRules": [
+      "Rule 3 - Competitor Price Match"
+    ],
+    "explanation": "Current price is more than 10% above the competitor price, so a small reduction keeps the offer competitive."
+  },
+  {
+    "productName": "Roma Tomatoes 1kg",
+    "currentPrice": 49,
+    "suggestedPrice": 51.45,
+    "appliedRules": [
+      "Rule 2 - High Demand Markup"
+    ],
+    "explanation": "Inventory is below 50% of forecasted demand while demand is rising, so price is increased to manage demand and protect margin."
+  },
+  {
+    "productName": "Atlantic Salmon Fillet 1kg",
+    "currentPrice": 520,
+    "suggestedPrice": 468,
+    "appliedRules": [
+      "Rule 1 - Overstock Discount",
+      "Rule 3 - Competitor Price Match",
+      "Rule 5 - Daily Adjustment Cap"
+    ],
+    "explanation": "Inventory is over 120% of forecasted demand and demand is trending down, so price is lowered to accelerate sell-through. Current price is more than 10% above the competitor price, so a small reduction keeps the offer competitive. Combined adjustment of -13% exceeds the daily cap, so it is limited to -10%."
+  },
+  {
+    "productName": "Sourdough Bread Loaf",
+    "currentPrice": 89,
+    "suggestedPrice": 89,
+    "appliedRules": [
+      "No rules triggered"
+    ],
+    "explanation": "No pricing conditions were met, so the current price is kept unchanged."
+  },
+  {
+    "productName": "Sunflower Cooking Oil 1L",
+    "currentPrice": 79,
+    "suggestedPrice": 79,
+    "appliedRules": [
+      "No rules triggered"
+    ],
+    "explanation": "No pricing conditions were met, so the current price is kept unchanged."
+  },
+  {
+    "productName": "Red Onions 1kg",
+    "currentPrice": 35,
+    "suggestedPrice": 36.75,
+    "appliedRules": [
+      "Rule 2 - High Demand Markup",
+      "Rule 4 - Critical Stock Guardrail"
+    ],
+    "explanation": "Inventory is below 50% of forecasted demand while demand is rising, so price is increased to manage demand and protect margin. Inventory is critically low; no discount would have applied, but this guardrail is noted for transparency."
+  },
+  {
+    "productName": "Greek Yogurt 500g",
+    "currentPrice": 99,
+    "suggestedPrice": 99,
+    "appliedRules": [
+      "No rules triggered"
+    ],
+    "explanation": "No pricing conditions were met, so the current price is kept unchanged."
+  }
+]
