@@ -62,7 +62,7 @@ The engine evaluates five rules per product, in order, and combines their effect
 Below is a sample run over 10 mock products, covering every rule individually and in combination (including a case where the combined adjustment exceeds the cap, and a case where the critical-stock guardrail blocks a discount):
 
 | Product | Current Price | Suggested Price | Change | Applied Rules |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Jasmine Rice 5kg | ฿245.00 | ฿220.50 | −10% | Rule 1 – Overstock Discount |
 | Fresh Chicken Breast 1kg | ฿165.00 | ฿173.25 | +5% | Rule 2 – High Demand Markup |
 | Farm Eggs (Tray of 30) | ฿145.00 | ฿145.00 | +0% | No rules triggered |
